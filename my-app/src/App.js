@@ -1,4 +1,8 @@
 
+
+
+
+
 /// StatefulGreeting///
 
 // import logo from './logo.svg';
@@ -251,14 +255,40 @@
 
 
 
+// import "./App.css";
+// import ClassCounter1 from "./components/ClassCounter1";
+// import UseEffectCounter from "./components/UseEffectCounter";
+
+// function App() {
+//   return <div className="App">
+//       {/* <ClassCounter /> */}
+//       <UseEffectCounter />
+//   </div>;
+// }
+
+// export default App;
+
+import React from 'react';
+
+
+// import "./App.css";
+// import HTTPRequests from "./components/HTTPRequests";
+
+// function App() {
+//   return <div className="App">
+//       <HTTPRequests />
+//   </div>;
+// }
+
+// export default App;
+
+
 import "./App.css";
-import ClassCounter1 from "./components/ClassCounter1";
-import UseEffectCounter from "./components/UseEffectCounter";
+import HTTPPost from "./components/HTTPPost";
 
 function App() {
   return <div className="App">
-      {/* <ClassCounter /> */}
-      <UseEffectCounter />
+      <HTTPPost />
   </div>;
 }
 
