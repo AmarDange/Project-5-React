@@ -226,12 +226,39 @@
 
 
 
+// import "./App.css";
+// import ControlledFormHooks from "./components/ControlledFormHooks";
+
+// function App() {
+//   return <div className="App">
+//       <ControlledFormHooks />
+//   </div>;
+// }
+
+// export default App;
+
+
+// import "./App.css";
+// import UseStateWithArrays from "./components/UseStateWithArrays";
+
+// function App() {
+//   return <div className="App">
+//      <UseStateWithArrays /> 
+//   </div>;
+// }
+
+// export default App;
+
+
+
 import "./App.css";
-import ControlledFormHooks from "./components/ControlledFormHooks";
+import ClassCounter1 from "./components/ClassCounter1";
+import UseEffectCounter from "./components/UseEffectCounter";
 
 function App() {
   return <div className="App">
-      <ControlledFormHooks />
+      {/* <ClassCounter /> */}
+      <UseEffectCounter />
   </div>;
 }
 
