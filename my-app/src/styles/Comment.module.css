@@ -1,0 +1,19 @@
+/* Commenter and Date css code taken from CI's Moments project */
+
+.Commenter {
+    margin-right: 8px;
+}
+
+.Date {
+    font-weight: lighter;
+    color: #c1c1c5;
+}
+
+.EditDeleteIcon:hover {
+    cursor: pointer;
+    color: #8EAEC4;
+}
+
+.EditDeleteIcon {
+    color: grey;
+}

@@ -1,0 +1,27 @@
+.FileFont {
+    font-family: 'Raleway', sans-serif;
+}
+
+.FileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    object-fit: cover;
+}
+
+.PageFont {
+    font-family: 'Fredoka One', cursive;
+}
+
+.BlueFont {
+    color: #336A86;
+}
+
+.EditDeleteIcon:hover {
+    cursor: pointer;
+    color: #8EAEC4;
+}
+
+.EditDeleteIcon {
+    color: grey;
+}
